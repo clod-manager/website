@@ -585,6 +585,7 @@ a{
   model-viewer {
   width: 800px;
   height: 600px;
+  background-color: var(--dark-blue);
 }
 
 .ar-button{
@@ -597,6 +598,15 @@ a{
   bottom: 0px;
   transform: translate(-50%, 0%);
   left:50%;
+  width:600px;
+}
+
+.modelMVP{
+  width: 600px!important;
+  height: 90px!important;
+  transform: translate(-50%, 0%);
+  left:50%;
+  top: 50px;
 }
 
 
