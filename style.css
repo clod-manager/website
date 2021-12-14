@@ -212,6 +212,30 @@ a{
     background-repeat: no-repeat;
   }
 
+  .feedback01Bg{
+    background-image: url("assets/feedback/01.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+  }
+
+  .feedback02Bg{
+    background-image: url("assets/feedback/02.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+  }
+
+  .feedback03Bg{
+    background-image: url("assets/feedback/03.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+  }
+
   .heroTeam{
     width: 60vw;
     border: 10px solid var(--lightblue);
@@ -557,6 +581,23 @@ a{
     position: absolute;
     bottom: 0px;
   }
+
+  model-viewer {
+  width: 800px;
+  height: 600px;
+}
+
+.ar-button{
+  background-color: var(--dark-blue);
+  color:white;
+  border: 5px solid white;
+  font-size: 4vw;
+  padding: 10px 20px;
+  position: absolute;
+  bottom: 0px;
+  transform: translate(-50%, 0%);
+  left:50%;
+}
 
 
 

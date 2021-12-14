@@ -9,6 +9,16 @@ function accordationPoster(obj) {
   square.classList.add(obj.id);
 }
 
+function accordationFeedback(obj) {
+  console.log(obj.id);
+  var square = document.getElementById('squareFeedback');
+  square.classList.remove('feedback01Bg');
+  square.classList.remove('feedback02Bg');
+  square.classList.remove('feedback03Bg');
+
+  square.classList.add(obj.id);
+}
+
 
 
 function bigPictureChange(obj){
