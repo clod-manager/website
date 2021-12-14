@@ -20,6 +20,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
   <script src="https://use.fontawesome.com/b42b0044fd.js"></script>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
+
 
 </head>
 
@@ -252,9 +255,28 @@
   <!-- ESPLOSO-->
   <div class="row d-flex justify-content-center screenDimension align-items-center">
     <div class="col-12 col-lg-8 d-flex justify-content-center">
+      <div>
       <img src="assets/esploso.png" style="width:100%; margin-top: -50px;">
+      <model-viewer class="modelMVP d-block d-lg-none"
+  data-name="baloon"
+  src="assets/AR/NewClodExplodedAR.glb"
+  ios-src="assets/AR/NewClodExplodedAR.usdz"
+  ar
+  ar-placement="floor"
+  ar-modes="scene-viewer quick-look"
+  camera-controls
+  auto-rotate
+  poster="assets/AR/ExplodedView.jpg"
+>
+
+<button slot="ar-button" id="ar-button" class="ar-button">
+    Try exploded view in AR
+  </button>
+</div>
     </div>
   </div>
+
+
 
 
   <!-- SMALL PICTURE -->
