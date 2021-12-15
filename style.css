@@ -583,7 +583,7 @@ a{
   }
 
   model-viewer {
-  width: 600;
+  width: 600px;
   height: 600px;
   background-color: var(--dark-blue);
 }
