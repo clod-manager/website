@@ -238,7 +238,7 @@ a{
 
   .heroTeam{
     width: 60vw;
-    border: 10px solid var(--lightblue);
+    /* border: 10px solid var(--lightblue); */
   }
 
   .bgMenu{
@@ -584,8 +584,7 @@ a{
 
   model-viewer {
   width: 800px;
-  height: 600px;
-  --poster-color: transparent;
+  height: 800px;
   background-color: var(--dark-blue);
 }
 
@@ -602,6 +601,15 @@ a{
   width:600px;
 }
 
+.teamBtn{
+  background-color: var(--dark-blue);
+  color:white;
+  border: 5px solid white;
+  padding: 10px 20px;
+  transition: 0.5s;
+  margin-top: 100px;
+}
+
 .modelMVP{
   width: 600px!important;
   height: 90px!important;
@@ -610,18 +618,32 @@ a{
   top: 50px;
 }
 
+.memberImg{
+  border: 5px solid var(--lightblue);
+  width: 300px;
+  height: 300px;
+}
+
 
 
 
 @media (max-width: 1200px) {
+  .colMemberTxt{
+    text-align: center;
+  }
 
   .fs-1c{
     font-size: 7vw;
     line-height: 1.2em;
   }
 
-  .fs-3c{
+  .fs-2c{
     font-size: 6vw;
+    line-height: 1.2em;
+  }
+
+  .fs-3c{
+    font-size: 5vw;
     line-height: 1.2em;
   }
 
