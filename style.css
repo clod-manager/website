@@ -68,6 +68,12 @@ a{
   transition: 0.5s;
 }
 
+.footerTextTeacher{
+  color:white;
+  transition: 0.5s;
+  font-size: 1.3vw;
+}
+
 .footerText{
   color:white;
   cursor:pointer;
@@ -77,6 +83,7 @@ a{
 
 .footerText:hover{
   color: var(--lightblue);
+  margin-left: 10px;
   transition: 0.5s;
 }
 
