@@ -370,6 +370,7 @@ a{
 
   .colBigpicture{
     min-height: 700px;
+    transform:scale(80%);
   }
 
   @keyframes pointerAnimation {
@@ -638,7 +639,9 @@ a{
 
 
 
-@media (max-width: 1200px) {
+
+
+@media (max-width: 770px) {
   .colMemberTxt{
     text-align: center;
   }
