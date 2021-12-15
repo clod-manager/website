@@ -57,6 +57,7 @@ document.addEventListener("scroll", function(e) {
       });
 
       $('#techText1').removeClass('d-none');
+      $('#scroll1').removeClass('d-none');
 
       tech02.addClass('techInactive');
       tech02.removeClass('techActive');
@@ -120,6 +121,7 @@ document.addEventListener("scroll", function(e) {
       });
 
       $('#techText1').addClass('d-none');
+      $('#scroll1').addClass('d-none');
     }
 
 
