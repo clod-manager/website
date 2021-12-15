@@ -607,7 +607,13 @@ a{
   border: 5px solid white;
   padding: 10px 20px;
   transition: 0.5s;
-  margin-top: 100px;
+  margin-top:100px;
+}
+
+.teamBtn:hover{
+  background-color: white;
+  color: var(--dark-blue);
+  transition: 0.5s;
 }
 
 .modelMVP{
@@ -622,6 +628,11 @@ a{
   border: 5px solid var(--lightblue);
   width: 300px;
   height: 300px;
+}
+
+.qr{
+  width:200px;
+  height:200px
 }
 
 
@@ -743,6 +754,12 @@ a{
 
     .marginMobile{
       padding-top: 200px;
+    }
+
+    .teamBtn:hover{
+      background-color: var(--dark-blue);
+      color: white;
+      transition: 0.5s;
     }
 
 
