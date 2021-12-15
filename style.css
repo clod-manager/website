@@ -585,6 +585,7 @@ a{
   model-viewer {
   width: 800px;
   height: 600px;
+  --poster-color: transparent;
   background-color: var(--dark-blue);
 }
 
