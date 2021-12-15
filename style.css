@@ -607,12 +607,7 @@ a{
   border: 5px solid white;
   padding: 10px 20px;
   transition: 0.5s;
-}
-
-.teamBtn:hover{
-  background-color: white;
-  color: var(--dark-blue);
-  transition: 0.5s;
+  margin-top: 100px;
 }
 
 .modelMVP{
